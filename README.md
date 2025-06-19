@@ -87,7 +87,7 @@ The COVID-19 pandemic has strained healthcare systems worldwide, emphasizing the
 
 ## Installation & Requirements
 
-**Prerequisites:**
+### Prerequisites:
 - Python 3.7+
 - PyTorch
 - scikit-learn
@@ -96,14 +96,14 @@ The COVID-19 pandemic has strained healthcare systems worldwide, emphasizing the
 - tensorboardX (for logging)
 - Jupyter Notebook (recommended for experimentation)
 
-**Installation:**
+### Installation:
 
 **Clone the repository:**
-git clone https://github.com/Rahulk9520/CvT-main.git
-cd CvT-main
+- `git clone https://github.com/Rahulk9520/CvT-main.git`
+- `cd CvT-main`
 
 **Install dependencies:**
-pip install -r requirements.txt
+- `pip install -r requirements.txt`
 
 *For Google Cloud Platform (GCP) usage, ensure you have access and the appropriate SDKs installed.*
 
@@ -116,10 +116,10 @@ pip install -r requirements.txt
 - Organize data into `train`, `validation`, and `test` folders as per the provided scripts.
 
 **Model Training:**
-python train.py --config configs/cvt_config.yaml
+`python train.py --config configs/cvt_config.yaml`
 
 **Evaluation:**
-python evaluate.py --model_path checkpoints/best_model.pth
+`python evaluate.py --model_path checkpoints/best_model.pth`
 
 **Visualization:**
 - Use Jupyter notebooks in the `notebooks/` directory for data exploration and attention map visualization.
@@ -139,7 +139,7 @@ python evaluate.py --model_path checkpoints/best_model.pth
 ---
 
 ## Directory Structure
-
+```
 CvT-main/
 │
 ├── data/ # Data folders and download scripts
@@ -151,8 +151,7 @@ CvT-main/
 ├── README.md # This file
 └── LICENSE
 
-
----
+```
 
 ## Reproducibility
 
@@ -172,8 +171,8 @@ CvT-main/
 
 ## Acknowledgements
 
-- Supervisor: Prof. Bahareh Nakisa, Deakin University
-- Unit Chair: Prof. Yong Xiang
+- Supervisor: **Prof. Bahareh Nakisa**
+- Unit Chair: **Prof. Yong Xiang**
 - Thesis Advisors: Dr. Asef Nazari, Dr. Duc Thanh Nguyen, Dr. Chandan Karmakar, Dr. Wei Luo
 - [COVID-19 Radiography Database](https://www.kaggle.com/datasets/tawsifurrahman/covid19-radiography-database) (Kaggle)
 - Open-source contributors and the Deakin University online library
