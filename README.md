@@ -99,11 +99,14 @@ The COVID-19 pandemic has strained healthcare systems worldwide, emphasizing the
 ### Installation:
 
 **Clone the repository:**
-- `git clone https://github.com/Rahulk9520/CvT-main.git`
-- `cd CvT-main`
-
+```
+git clone https://github.com/Rahulk9520/CvT-main.git
+cd CvT-main
+```
 **Install dependencies:**
-- `pip install -r requirements.txt`
+```
+pip install -r requirements.txt
+```
 
 *For Google Cloud Platform (GCP) usage, ensure you have access and the appropriate SDKs installed.*
 
@@ -116,10 +119,13 @@ The COVID-19 pandemic has strained healthcare systems worldwide, emphasizing the
 - Organize data into `train`, `validation`, and `test` folders as per the provided scripts.
 
 **Model Training:**
-`python train.py --config configs/cvt_config.yaml`
-
+```bash
+python train.py --config configs/cvt_config.yaml
+```
 **Evaluation:**
-`python evaluate.py --model_path checkpoints/best_model.pth`
+```bash
+python evaluate.py --model_path checkpoints/best_model.pth
+```
 
 **Visualization:**
 - Use Jupyter notebooks in the `notebooks/` directory for data exploration and attention map visualization.
@@ -196,5 +202,3 @@ See also the [thesis PDF](Rahul-Thesis_merged.pdf) for a full bibliography.
 **LinkedIn:** [rk95-dataquasar](https://www.linkedin.com/in/rk95-dataquasar/)
 
 ---
-
-
