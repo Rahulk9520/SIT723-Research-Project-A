@@ -142,13 +142,13 @@ The COVID-19 pandemic has strained healthcare systems worldwide, emphasizing the
 ```
 CvT-main/
 │
-├── data/ # Data folders and download scripts
-├── notebooks/ # Jupyter notebooks for EDA and visualization
-├── src/ # Source code for models, training, evaluation
-├── configs/ # YAML configuration files
-├── results/ # Output metrics, plots, logs
-├── requirements.txt # Python dependencies
-├── README.md # This file
+├── data/              # Data folders and download scripts
+├── notebooks/         # Jupyter notebooks for EDA and visualization
+├── src/               # Source code for models, training, evaluation
+├── configs/           # YAML configuration files
+├── results/           # Output metrics, plots, logs
+├── requirements.txt   # Python dependencies
+├── README.md          
 └── LICENSE
 
 ```
@@ -184,7 +184,6 @@ CvT-main/
 If you use this code or data, please cite:
 
 Rahul Kumar. (2022). Transformers for COVID-19 detection for the multiclass classification problem utilizing X-ray images. SIT723 Research Project-A, Deakin University.
-
 
 See also the [thesis PDF](Rahul-Thesis_merged.pdf) for a full bibliography.
 
